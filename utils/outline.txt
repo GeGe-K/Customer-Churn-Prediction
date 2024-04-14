@@ -1,0 +1,27 @@
+1. Business understanding (stakeholder input)
+    - Goal
+    - Hypothesis
+    - Analytical questions
+    - More information about the project if applicable
+2. Data understanding 
+    - Load dataset
+    - Clean dataset
+    - EDA(info, describe, duplicates, appropriate columns, check for unique values)
+        - Univariate(Histogram, check for outliers, calculate skewness, density plots etc)
+        - Bivariate(Scatter plots, correlation heatmap, violin plot, pair plot, boxplots, barplots, etc)
+        - Multivariate(PCA, t-SNE, etc)
+        - Further analysis
+   - Answer Analytical questions
+3. Data preparation
+    - Check if dataset is balanced (Visualize)
+    - Split data into X and y & (train & eval)
+    - Encode y labels
+    - Create your transformers based on your understanding of the data for (imputation, scaling, balanced)
+4. Modeling & Evaluation 
+    - Choose models to train (distance, gradient descent, tree-based +)
+    - Train on unbalanced dataset (if applicable)
+    - Train on balanced data (if applicable)
+    - Visualize evaluation 
+    - Hyperparameter tuning
+    - Model persistance
+5. Deployment
